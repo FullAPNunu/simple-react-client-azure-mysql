@@ -38,7 +38,7 @@ const App = () => {
           {
             Name: 'New Zealand',
             LifeExpectancy: '100'
-          }
+          },
           {
             Name: 'Australia',
             LifeExpectancy: '100' 
