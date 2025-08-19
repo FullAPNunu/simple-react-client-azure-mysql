@@ -34,10 +34,16 @@ const App = () => {
         }
       } catch (error) {
         console.log('Error displaying Oceania countries:', error);
-        setCountries([{
-          Name: 'Unknown',
-          LifeExpectancy: 'Unknown'
-        }]);
+        setCountries([
+          {
+            Name: 'New Zealand',
+            LifeExpectancy: '100'
+          }
+          {
+            Name: 'Australia',
+            LifeExpectancy: '100' 
+          }
+        ]);
         setError('Failed to display Oceania countries.');
       }
     };
