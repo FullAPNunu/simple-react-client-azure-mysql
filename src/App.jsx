@@ -42,7 +42,7 @@ const App = () => {
           {
             Name: 'Australia',
             LifeExpectancy: '100' 
-          }
+          },
         ]);
         setError('Failed to display Oceania countries.');
       }
